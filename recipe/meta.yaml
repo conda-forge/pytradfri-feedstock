@@ -1,5 +1,5 @@
 {% set name = "pytradfri" %}
-{% set version = "7.0.6" %}
+{% set version = "7.0.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytradfri-{{ version }}.tar.gz
-  sha256: 608f03a9219c460e480a2faf90f9ad9c4aa6f9fa0b22134f8dd182f96386214a
+  sha256: 75a40ab67b25f7513dc2fbb3c6bde60bf745ce24fa847d4dc8f3e320b26e6191
 
 build:
   number: 0
@@ -36,7 +36,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'IKEA Trådfri/Tradfri API. Control and observe your lights from Python.'
+  summary: IKEA Trådfri/Tradfri API. Control and observe your lights from Python.
   description: |
     Python package to communicate with the IKEA Trådfri (Tradfri)
     ZigBee Gateway compatible with ZigBee Light Link products. By
