@@ -1,5 +1,5 @@
 {% set name = "pytradfri" %}
-{% set version = "10.0.0" %}
+{% set version = "10.0.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytradfri-{{ version }}.tar.gz
-  sha256: c1136f267533dd082e397a3ba9b416d2f4c17d0e3d2405ac2aa7dd62b72d128e
+  sha256: c0ae104d5e0af4a890a92c0283ba6e1fd866c7c8378105e6adabb88dd86b7d9b
 
 build:
   number: 0
